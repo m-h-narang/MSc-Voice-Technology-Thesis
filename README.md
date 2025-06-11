@@ -43,17 +43,15 @@ MUStARD\_Plus\_Plus/
 ````
 
 2. Create and activate a virtual environment (or use conda):
-
    ```bash
    python3 -m venv venv
    source venv/bin/activate
-   ```
+```
 
 3. Install the required Python packages:
-
    ```bash
    pip install numpy pandas scikit-learn tqdm transformers torchaudio soundfile
-   ```
+```
 
 4. If you plan to extract video features:
 
