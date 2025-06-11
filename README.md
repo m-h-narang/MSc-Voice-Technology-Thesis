@@ -20,43 +20,41 @@ This project explores sarcasm detection using three key modalities:
 ## Folder Structure
 
 ```
-
-MUStARD\_Plus\_Plus/
+MUStARD_Plus_Plus/
 │
 ├── Text/                   # Scripts for text processing and classification
 ├── Audio/                  # Scripts for audio feature extraction and models
 ├── Video/                  # Scripts for OpenFace-based visual modeling
 ├── Fusion/                 # Final multimodal fusion model
-├── all\_videos/            # Input videos (not included in this repo)
+├── all_videos/             # Input videos (not included in this repo)
 ├── README.md               # This file
-
-````
+```
 
 ---
 
 ## Installation Instructions
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/MUStARD_Plus_Plus.git
-   cd MUStARD_Plus_Plus
-````
+1.  Clone this repository:
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/MUStARD_Plus_Plus.git](https://github.com/YOUR_USERNAME/MUStARD_Plus_Plus.git)
+    cd MUStARD_Plus_Plus
+    ```
 
-2. Create and activate a virtual environment (or use conda):
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-```
+2.  Create and activate a virtual environment (or use conda):
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
 
-3. Install the required Python packages:
-   ```bash
-   pip install numpy pandas scikit-learn tqdm transformers torchaudio soundfile
-```
+3.  Install the required Python packages:
+    ```bash
+    pip install numpy pandas scikit-learn tqdm transformers torchaudio soundfile
+    ```
 
-4. If you plan to extract video features:
+4.  If you plan to extract video features:
 
-   * Install [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace)
-   * Ensure it is built and accessible in your `$PATH`
+    * Install [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace)
+    * Ensure it is built and accessible in your `$PATH`
 
 ---
 
@@ -114,4 +112,3 @@ This project uses the **MUStARD++** dataset, an extension of the MUStARD sarcasm
 ## License
 
 This repository is for academic and non-commercial use only.
-
