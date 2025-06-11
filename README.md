@@ -111,4 +111,6 @@ This project uses the **MUStARD++** dataset, an extension of the MUStARD sarcasm
 
 ## License
 
-This repository is for academic and non-commercial use only.
+This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
+
+
