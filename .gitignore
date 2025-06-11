@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset or large files (ensure you don't commit video/audio directly)
+*.mp4
+*.wav
+*.zip
+*.tar.gz
+
+# Logs and temp files
+*.log
+*.tmp
+*.out
+*.DS_Store
+
+# IDE configs
+.vscode/
+.idea/
+
+# Python cache and build artifacts
+*.egg
+build/
+dist/
+.eggs/
+
+# Environment or user config files
+.env
+.env.*
+
+# MacOS-specific
+.DS_Store
+
+# Ignore model weights or checkpoints
+*.pt
+*.pth
+*.ckpt
