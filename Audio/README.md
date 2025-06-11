@@ -1,4 +1,4 @@
-```markdown
+
 # Audio Modality — Sarcasm Detection
 
 This folder includes scripts for extracting prosodic and wav2vec features, aligning them, and training audio classifiers.
