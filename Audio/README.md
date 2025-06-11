@@ -1,6 +1,3 @@
-
-### 📁 `Audio/README.md`
-
 ```markdown
 # Audio Modality — Sarcasm Detection
 
