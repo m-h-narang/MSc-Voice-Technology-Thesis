@@ -1,1 +1,7 @@
-
+numpy
+pandas
+scikit-learn
+tqdm
+transformers
+torchaudio
+soundfile
